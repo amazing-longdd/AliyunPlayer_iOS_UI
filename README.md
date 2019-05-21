@@ -9,7 +9,7 @@
 ## 简单使用步骤
 1. 使用pod集成AliyunPlayer_iOS，获取核心SDK
 2. 把这里的所有东西复制到自己的项目中，引入AliyunVodPlayerView
-```swift
+```objc
 #import "AliyunVodPlayerView.h"
 ```
 3. 初始化
