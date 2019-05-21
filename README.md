@@ -7,12 +7,12 @@
 
 
 ## 简单使用步骤
-- 1. 使用pod集成AliyunPlayer_iOS，获取核心SDK
-- 2. 把这里的所有东西复制到自己的项目中，引入AliyunVodPlayerView
+1. 使用pod集成AliyunPlayer_iOS，获取核心SDK
+2. 把这里的所有东西复制到自己的项目中，引入AliyunVodPlayerView
 ```swift
 #import "AliyunVodPlayerView.h"
 ```
-- 3. 初始化
+3. 初始化
 ```swift
 //设置播放器
 private func setupPlayer(){
@@ -27,6 +27,6 @@ playerView.playPrepare(withVid: , playAuth: )
 
 }
 ```
-- 4. 代理方法参考 AliyunVodPlayerViewDelegate
+4. 代理方法参考 AliyunVodPlayerViewDelegate
 
 > 大家可以根据自己的情况来增减UI的东西 , 最后讲一句 从Demo里面扣出来这些 真的 很费神
