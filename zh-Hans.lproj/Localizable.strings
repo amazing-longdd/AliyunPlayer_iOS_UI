@@ -1,0 +1,1230 @@
+/* 
+  Localizable.strings
+  AliyunPlayerMediaDemo
+
+  Created by 王凯 on 2017/11/7.
+  Copyright © 2017年 com.alibaba.ALPlayerVodSDK. All rights reserved.
+*/
+
+
+"Player Demo"="播放器Demo";
+
+"Basic player"="基础播放器";
+"Basic function demo of Vod" = "点播播放基本功能";
+"Basic function demo of live" = "直播播放基本功能";
+
+"Advanced player" = "高级播放器";
+"Basic function demo of Vod by using vid and sts" = "点播播放器基本功能(vid+sts方式演示)";
+"Autoplay demo of multi-video by using url" = "多视频列表自动播放(url方式演示)";
+"Full screen slide play demo by using url" = "全屏滑动切换播放(url方式演示)";
+"Breakpoints download demo" = "多视频断点下载演示";
+
+"UI player" = "UI播放器";
+"Debug tools demo" = "播放器诊断工具演示";
+"Copyright information" = "版权信息";
+
+
+"Scene List of player" = "播放器场景化列表";
+"Full UI player demo" = "完整UI播放器基本功能演示";
+
+
+"version" = "版本:v3.4.1";
+
+"vid" = "vid";
+"the vid fill in the text field by user or default setting" = "填写或设置的vid";
+"playAuth" = "playAuth";
+"play_auth_contents" = "填写或设置的playAuth";
+
+"refresh" = "刷新";
+"Open interface of playing" = "开启播放界面";
+
+"Back" = "返回";
+//"navigation_back" = "返回";
+//"naviBack" = "返回";
+"Log" = "显示日志";
+
+//"buffer" = "缓冲";
+//"buffer_time" = "当前已经缓冲的时间";
+//"play_time" = "当前播放时间";
+
+//"video_duration" = "视频时长";
+//"start_button" = "开始";
+//"stop_button" = "停止";
+//"pause_button" = "暂停";
+//"resume_button" = "继续";
+//"replay_button" = "重播";
+//"auto_play" = "自动播放";
+//"mute_label" = "静音";
+//"volume_label" = "音量";
+//"brightness_label" = "亮度";
+//"scale_model" = "缩放模式";
+//"aspect_fit" = "原比例填充(fit)";
+//"aspect_fill" = "裁剪占满全屏(fill)";
+"Get all definition" = "获取清晰度";
+//"FD" = "流畅";
+//"LD" = "标清";
+//"SD" = "高清";
+//"HD" = "超清";
+//"2K" = "2K";
+//"4K" = "4K";
+//"OD" = "原画";
+"add_video" = "添加下载";
+"start_download" = "开始";
+"stop_download" = "停止";
+"delete_downloaded_video" = "删除";
+"play_downloaded_video" = "播放";
+
+"download_status_unload" = "未下载";//包含未下载、下载进度、已停止、已完成、等待中
+"download_status_stop" = "已停止";
+"download_status_finish" = "已完成";
+"download_status_waiting" = "等待中";
+
+
+"Download all" = "全部下载";
+"Delete all" = "全部删除";
+"Cancel" = "取消";
+"ok_button" = "确定添加";
+"ok_button1" = "确定";
+"error" = "错误";
+
+
+"start_play" = "开始播放";
+"pause_play" = "播放器暂停";
+"stop_play" = "播放器停止";
+"finish_play" = "播放视频完成";
+"load_start" = "开始加载视频";
+"load_end" = "加载视频完成";
+"get_loaddata" = "获取到播放数据";
+"seek_to" = "视频跳转seek结束";
+"start_firstFrame" = "视频首帧开始播放";
+
+
+"Error code" = "错误码";
+"Error message" = "错误描述";
+"Tips" = "提示";
+"Cannot repeatly add" = "不能重复添加";
+"Unfinished last time" = "上次未完成";
+"Begun" = "已开始";
+"Stopped"="已停止";
+"Finished" = "已完成";
+"Please request definition list first" = "请先获取清晰度";
+"video has downloaded" = "视频已经下载完成";
+
+
+//
+
+
+"log_start_play" = "开始播放";
+"log_stop_play" = "停止播放";
+"log_pause_play" = "暂停播放";
+"log_resume_play" = "继续播放";
+"log_re_play" = "重新播放";
+
+//"player_scene_list" = "基础播放器";
+
+//"multiple_video_auto_play" = "多视频列表自动播放";
+//"debug_tools" = "播放器诊断工具演示";
+//"ui_player" = "基本UI界面demo";
+
+//版权信息\n阿里云 copyrightⒸ2017,阿里巴巴集团\n
+"copyright_information" = "版权信息";
+"copyright_license" = "阿里云 copyrightⒸ2017,阿里巴巴集团";
+
+"notreachable" = "网络断开";
+"clicked_ok" = "确定";
+"clear_message" = "清理";
+"network" = "4g网络，是否继续播放?";
+"videoName" = "默认地址";
+
+
+
+"alert_show_title_errortitle" = "错误提示";
+"alert_show_title_cancel" = "取消";
+"alert_show_title_buttontitles" = "重新连接";
+"play_error" = "播放器错误";
+"play_finish" = "播放完成";
+"manual_input_url" = "手动输入地址";
+"input_url_invalid" = "输入地址无效";
+"input_playurl" = "输入播放地址";
+"input_url" = "请输入地址";
+"input playurl" = "输入播放地址";
+"input mediaPlayer" = "进入播放器";
+
+"For mobile networks, continue to download？" = "当前为移动网络，继续下载？";
+
+"onVideoPrepared" = "准备完成";
+"onVideoFirstFrame" = "播放第一帧";
+"OnVideoFinish" = "播放完成";
+"OnSeekDone" = "seek结束";
+"OnStartCache" = "缓存开始";
+"OnEndCache" = "缓存结束";
+"OnVideoStop" = "播放结束";
+"onCircleStart" = "循环播放开始";
+"play failed,error code is" = "播放失败，错误码是";
+"pause failed,error code is" = "播放暂停，错误码是";
+"resume failed,error code is" = "继续播放失败，错误码是";
+"stop failed,error code is" = "停止播放失败，错误码是";
+"prepare failed,error code is" = "准备播放数据失败，错误码是";
+"reset failed,error code is" = "重置播放器失败，错误码是";
+
+//连续播放界面
+"Continuous play demo" = "连续播放演示";
+"buffer" = "buffer";
+"00:00:00"="00:00:00";
+"con_play" = "播放";
+"con_pause" = "暂停";
+"con_resume" = "继续";
+"con_stop" = "停止";
+"con_replay" = "重播";
+"check_tools" = "检查播放地址工具";
+
+//直播时移
+"Time-shift of live player Demo" = "直播时移演示";
+"Mute" = "静音";
+"Volume" = "音量";
+"Brightness" = "亮度";
+"DisplayMode" = "缩放模式";
+"Aspect fit" = "原比例填充(fit)";
+"Aspect fill" = "裁剪占满全屏(fill)";
+"Drop buffer duration" = "最大丢帧缓存区";
+"ms" = "毫秒";
+"live" = "live";
+
+
+//答题直播间
+"answer room" = "答题直播间";
+"start answer" = "开始答题";
+"playback settings" = "播放设置";
+"live room" = "直播间";
+"popQuestion" = "弹出题目";
+"popAnswer" = "弹出结果";
+"CLEAR" = "清理";
+"LOG_OK" = "确定";
+"Obsolete" = "已淘汰";
+"Bingo" = "答对了";
+"Wrong" = "答错了";
+
+
+//push flow
+"live_scene_list" = "直播推流";
+
+"live_basic_function" = "推流SDKv3.3.2";
+
+"live_basic_function_old" = "推流SDKv1.3";
+
+"screen_record_live" = "录屏直播";
+
+"license_declaration" = "版权信息";
+
+"version" = "版本:v3.3.2";
+
+"pusher_setting" = "推流设置";
+
+"input_tips" = "请输入推流地址或扫描二维码";
+
+"resolution_label" = "分辨率";
+
+"quality_mode_label" = "推流模式";
+
+"beauty_mode_label" = "美颜模式";
+
+"max_bitrate" = "最大码率";
+
+"target_bitrate" = "目标码率";
+
+"min_bitrate" = "最小码率";
+
+"initial_bitrate" = "初始码率";
+
+"audio_bitrate" = "音频码率";
+
+"captrue_fps" = "采集帧率";
+
+"min_fps" = "最小帧率";
+
+"audio_sampling_rate" = "音频采样率";
+
+"sound_track" = "声道";
+
+"audio_profile" = "音频格式";
+
+"single_track" = "单声道";
+
+"dual_track" = "双声道";
+
+"reconnect_duration" = "重连时长";
+
+"reconnect_times" = "重连次数";
+
+"landscape_model" = "横屏推流";
+
+"push_url_notice_text" = "防止多人使用同一地址推流造成异常，建议更换推流地址";
+
+"front_camera" = "前置摄像头";
+
+"mirror" = "前置镜像";
+
+"watermark" = "水印";
+
+"watermark_setting" = "水印设置";
+
+"audio_only_push_streaming" = "纯音频";
+
+"video_only_push_streaming" = "纯视频";
+
+"audio_hardware_encode" = "音频硬编";
+
+"background_image" = "后台图片";
+
+"network_weak_image" = "弱网图片";
+
+"auto_focus" = "自动对焦";
+
+"beauty_enable" = "开启美颜";
+
+"hardware_encode" = "硬编";
+
+"asynchronous_interface" = "异步接口";
+
+"start_preview_button" = "开始预览";
+
+"stop_preview_button" = "停止预览";
+
+"start_push" = "开始推流";
+
+"start_button" = "开始推流";
+
+"pause_button" = "暂停";
+
+"resume_button" = "继续";
+
+"stop_button" = "停止推流";
+
+"more_setting_button" = "更多设置";
+
+"repush_button" = "重新推流";
+
+"slide_right_view_log_char" = "右滑查看log";
+
+"slide_left_view_log" = "左滑查看log图表";
+
+"share_button" = "分享";
+
+"add_button" = "加贴纸";
+
+"remove_button" = "删贴纸";
+
+"beauty_on" = "开启美颜";
+
+"beauty_off" = "关闭美颜";
+
+"beauty_white" = "美白";
+
+"beauty_skin_smooth" = "磨皮";
+
+"beauty_cheekpink" = "腮红";
+
+"beauty_thinface" = "瘦脸";
+
+"beauty_shortenface" = "收下巴";
+
+"beauty_bigeye" = "大眼";
+
+"beauty_ruddy" = "红润";
+
+"beaut_brightness" = "亮度";
+
+"beauty_saturation" = "饱和度";
+
+"save_log" = "保存日志";
+
+"modules_time_consuming" = "各模块耗时";
+
+"modules_audio_fps" = "各模块音频帧率";
+
+"modules_video_fps" = "各模块视频帧率";
+
+"modules_bitrate" = "各模块码率";
+
+"capture" = "采集";
+
+"zoom" = "缩放";
+
+"encode" = "编码";
+
+"push" = "推流";
+
+"beauty_button" = "美颜";
+
+"auto_bitrate" = "码率自适应";
+
+"user_main_stream" = "自定义主流";
+
+"user_mix_stream" = "自定义混流";
+
+"auto_resolution" = "分辨率自适应";
+
+"sweep_code" = "扫码";
+
+"preview_mirror" = "预览镜像";
+
+"push_mirror" = "推流镜像";
+
+"keyframe_interval" = "关键帧";
+
+"flash" = "闪光灯";
+
+"render" = "渲染";
+
+"video_encode" = "视频编码";
+
+"audio_encode" = "音频编码";
+
+"sweep_code_label" = "将二维码放入框内, 即可自动扫描";
+
+"mirror_button_open" = "开启镜像";
+
+"mirror_button_close" = "关闭镜像";
+
+"log_button_open" = "开启日志";
+
+"log_button_close" = "关闭日志";
+
+"no_camera_permission" = "没有权限使用摄像头，请开启摄像头权限";
+
+"no_record_audio_permission" = "没有权限使用录音，请开启录音权限";
+
+"dialog_title" = "错误提示";
+
+"ok" = "确定";
+
+"network_poor" = "网络差，请退出或者重连";
+
+"network_recovery" = "网络恢复";
+
+"reconnect_start" = "重连开始";
+
+"reconnect_fail" = "重连失败";
+
+"connect_fail" = "链接失败";
+
+"reconnect_success" = "重连成功";
+
+"senddata_timeout" = "发送数据超时";
+
+"restart_success" = "重启成功";
+
+"system_error" = "系统错误：";
+
+"sdk_error" = "SDK错误：";
+
+"argument_exception" = "参数错误";
+
+"state_exception" = "状态错误";
+
+"bite_error" = "码率参数设置错误！";
+
+"drop_frame" = "丢帧";
+
+"adjust_bitrate" = "调整码率";
+
+"adjust_fps" = "调整帧率";
+
+"start_drop_gop" = "开丢GOP";
+
+"stop_drop_gop" = "停丢GOP";
+
+"bit_control" = "报网差包数";
+
+"min_control_interval" = "码控最小时间间隔";
+
+"upbps_duration" = "上涨最小时间间隔";
+
+"upbps_min_pree" = "上涨码率%";
+
+"upbps_size" = "上涨码率";
+
+"control_times" = "调控次数";
+
+"url_empty" = "请输入推流地址";
+
+"start_preview_log" = "开始预览";
+
+"connectRecovery_log" = "网络恢复";
+
+"stop_preview_log" = "停止预览";
+
+"start_push_log" = "开始推流";
+
+"stop_push_log" = "停止推流";
+
+"pause_push_log" = "暂停";
+
+"resume_push_log" = "恢复";
+
+"first_frame_log" = "首帧渲染";
+
+"push_url_log" = "推流地址";
+
+"ispushing_log" = "是否推流";
+
+"restart_push_log" = "重新推流";
+
+"exit" = "退出";
+
+"reconnect_button" = "重连";
+
+"modules_time_consuming" = "各模块耗时";
+
+"modules_audio_fps" = "各模块音频帧率";
+
+"modules_video_fps" = "各模块视频帧率";
+
+"modules_bitrate" = "各模块码率";
+
+"capture" = "采集";
+
+"render" = "渲染";
+
+"encode" = "编码";
+
+"push" = "推流";
+
+"total_time" = "总耗时";
+
+"audio_fps" = "各模块audio fps";
+
+"video_fps" = "各模块video fps";
+
+"bitrate" = "各模块bitrate";
+
+"video_encode" = "视频编码";
+
+"audio_encode" = "音频编码";
+
+"buffer" = "各模块buffer";
+
+"video_renderbuffer" = "视频渲染";
+
+"video_encodebuffer" = "视频编码";
+
+"video_uploadbuffer" = "视频上传";
+
+"audio_encodebuffer" = "音频编码";
+
+"audio_uploadbuffer" = "音频上传";
+
+"bitrate_enable" = "码率调控";
+
+"publisher_log" = "推流参数log";
+
+"text_log_1" = "当前CPU：";
+"text_log_2" = "当前Memory：";
+"text_log_3" = "视频采集帧率：";
+"text_log_4" = "音频采集帧率：";
+"text_log_5" = "音频编码码率：";
+"text_log_6" = "音频编码帧率：";
+"text_log_7" = "视频渲染帧率：";
+"text_log_8" = "视频编码模式：";
+"text_log_9" = "视频编码码率：";
+"text_log_10" = "视频编码帧率：";
+"text_log_11" = "视频编码总帧数：";
+"text_log_12" = "视频编码总耗时：";
+"text_log_13" = "视频编码器设置码率：";
+"text_log_14" = "音频输出码率：";
+"text_log_15" = "视频输出码率：";
+"text_log_16" = "缓存音频帧总数：";
+"text_log_17" = "缓存视频帧总数：";
+"text_log_18" = "视频上传帧率：";
+"text_log_19" = "音频上传帧率：";
+"text_log_20" = "当前上传视频帧PTS：";
+"text_log_21" = "当前上传音频帧PTS：";
+"text_log_22" = "上一个视频关键帧PTS：";
+"text_log_23" = "缓冲区中最后一帧视频：";
+"text_log_24" = "缓冲区中最后一帧音频：";
+"text_log_25" = "数据上传总大小：";
+"text_log_26" = "视频推流总耗时：";
+"text_log_27" = "当前视频流已发送总帧数：";
+"text_log_28" = "视频丢帧总数：";
+"text_log_29" = "视频丢帧次数：";
+"text_log_30" = "总的断网次数：";
+"text_log_31" = "总的重连次数：";
+"text_log_32" = "视频延迟时长：";
+"text_log_33" = "音频延迟时长：";
+"text_log_34" = "当前上传帧大小：";
+"text_log_35" = "音视频pts差异：";
+"text_log_36" = "两秒内上传数据总大小：";
+"text_log_37" = "缓冲队列中曾经最大的视频帧size：";
+"text_log_38" = "缓冲队列中曾经最大的音频帧size：";
+"text_log_39" = "待发送队列中最后一个视频包的pts：";
+"text_log_40" = "带发送队列中最后一个音频包的pts：";
+"text_log_41" = "当前发送的音视频包pts diff：";
+"text_log_42" = "音频编码器队列中帧缓存数：";
+"text_log_43" = "视频编码器队列中帧缓存数：";
+"text_log_44" = "渲染队列中帧缓存数：";
+"text_log_45" = "每帧平均渲染时长：";
+
+/*vodplay-播放器*/
+"Retry" = "重试";
+"Replay" = "重播";
+"Play" = "播放";
+"Fast speed play" = "倍速播放";
+"Nomal" = "正常";
+"1.25X" = "1.25倍";
+"1.5X" = "1.5倍";
+"2X" = "2倍";
+"the current video has swiched to" = "当前视频已切换为";
+"speed rate" = "倍速播放";
+"loading" = "正在加载数据中...";
+
+"left" = "左侧";
+"brightness" = "亮度";
+"control" = "调节";
+"center" = "中心";
+"progress" = "进度";
+"right" = "右侧";
+"volume" = "音量";
+
+"VOD_FD" = "流畅";
+"VOD_LD" = "标清";
+"VOD_SD" = "高清";
+"VOD_HD" = "超清";
+"VOD_2K" = "2K";
+"VOD_4K" = "4K";
+"VOD_OD" = "原画";
+
+
+"Watch again, please click replay" = "再次观看，请点击重新播放";
+"The current network is not good. Please click replay later" = "当前网络不佳，请稍后点击重新播放";
+"No network connection, check the network, click replay" = "无网络连接，检查网络后点击重新播放";
+"Video loading error, please click replay" = "视频加载出错，请点击重新播放";
+"For mobile networks, click play" = "当前为移动网络，请点击播放";
+
+// 短视频模块
+"record_brand" = "拍摄"; //品牌页面拍摄入口（非用户）
+"magic_camera_brand" = "魔法相机"; //品牌也魔法相机入口（非用户）
+"import_entry_brand" = "导入编辑"; //品牌页导入编辑入口（非用户）
+"cut_entry_brand" = "导入裁剪"; //品牌页导入裁剪入口（非用户）
+"live_entry_brand" = "直播"; //品牌也直播入口（非用户）
+"ui_component_brand" = "其他"; //品牌页其他入口（非用户）
+"duration_current_record" = ""; //录制界面，当前录制时间
+"video_record" = "视频"; //录制界面，录制视频文案
+"photo_record" = "照片"; //录制界面，拍摄照片文案
+"edit_nav_edit" = "编辑"; //编辑界面导航栏标题
+"finish_subtitle_edit" = "完成"; //字幕编辑完成按钮文案
+"fill_subtitle_edit" = "填充"; //字幕编辑颜色填充
+"border_subtitle_edit" = "描边"; //字幕编辑描边颜色
+"time_positon_edit" = ""; //编辑界面当前帧的时间
+"hide_elements_edit" = "点击屏幕隐藏所有功能按钮"; //编辑界面隐藏界面元素提醒文案
+"show_elements_edit" = "点击屏幕显示所有功能按钮"; //编辑界面显示界面元素提醒下文案
+"speed_edit" = "速度"; //编辑界面变速功能速度调节文案
+"times_speed_edit" = "1.0X"; //编辑界面变速倍数文案
+"more_motion_sticker_nav_edit" = "更多动图"; //更多动图页面导航栏文案
+"more_subtitle_nav_edit" = "更多字幕"; //更多字幕页面导航栏文案
+"more_mv_nav_edit" = "更多MV"; //更多MV页面导航栏文案
+"effect_mananger_nav_edit" = "特效管理"; //特效管理页面导航栏文案
+"motion_sticker_effect_manager" = "动图"; //特效管理页面动图tab文案
+"subtitle_effect_manager" = "字幕"; //特效管理页面字幕tab文案
+"font_effect_manager" = "字体"; //特效管理页面字体tab文案
+"mv_effect_manager" = "MV"; //特效管理页面MVtab文案
+"music_effect_manager" = "音乐"; //特效管理页面音乐tab文案
+"delete_effect_manager" = "删除"; //特效管理页面删除特效文案
+"finish_effect_manager" = "完成"; //特效管理页面完成按钮文案
+"use_effect_edit" = "使用"; //使用特效的文案（这里使用各种特效统一）
+"download_effect_edit" = "下载"; //下载特效的文案（这里各种特效统一）
+"mute_music_edit" = "静音"; //音乐界面静音按钮文案
+"original_music_edit" = "原音"; //音乐界面音乐调节原音
+"music_edit" = "音乐"; //音乐界面音乐调节音乐文案
+"no_music_edit" = "无音乐"; //音乐界面无音乐按钮文案
+"dub_music_edit" = "配音"; //音乐界面配音按钮文案
+"my_music_edit" = "我的音乐"; //音乐界面我的音乐tab文案
+"local_music_edit" = "本地音乐"; //音乐界面本地音乐tab文案
+"camera_roll__nav_import" = "胶卷相机"; //导入界面胶卷相机导航栏文案
+"cancel_camera_import" = "取消"; //导入界面胶圈相机取消按钮文案
+"total_duration_label_import" = "总时长"; //总时长提示文案
+"total_duration_import" = ""; //总时长时间显示（如03:12:21)
+"reorder_import" = "长按以拖动排序"; //长按拖动文案提醒
+"next_camera_roll_import" = "下一步"; //胶卷相机下一步按钮文案
+"duration_video_import" = ""; //导入视频单个视频时长文案
+"message_max_duration_import" = "请控制总时长在5分钟之内"; //导入总时长过程时提醒文案
+"time_positon_cut" = ""; //裁剪界面当前帧的时间（拖动剪刀时显示，跟随）
+
+"minDuration" = "最小时长";
+"minDuration_placeholder" = "最小时长大于0,默认值2s";
+"maxDuration" = "最大时长";
+"maxDuration_placeholder" = "建议不超过300s,默认值30s";
+"key_frame_interval" = "关键帧间隔";
+"key_frame_interval_placeholder" = "建议1-300，默认5";
+"video_quality" = "视频质量";
+"resolution" = "分辨率";
+"start_recording" = "开始录制";
+
+"video_quality_low_Configure" = "低"; //导入参数配置界面 视频质量
+"video_quality_mid_Configure" = "中"; //导入参数配置界面 视频质量
+"video_quality_high_Configure" = "高"; //导入参数配置界面 视频质量
+"video_quality_skyhigh_Configure" = "极高"; //导入参数配置界面 视频质量
+"video_film_composition" = "相机胶卷"; //导入界面相机胶卷title
+"nonsupport_video_type_composition" = "不支持的视频格式"; // 导入界面选择不支持的视频格式弹窗文案
+"video_affirm_common" = "确定"; // 确认 通用
+"video_reminder_common" = "提示"; // 提示 通用
+"video_error_edit" = "该视频为错误视频"; // 编辑界面错误视频 文案
+"video_is_exporting_edit" = "正在导出视频"; // 编辑界面导出视频弹窗文案
+"video_exporting_finish_edit" = "导出完成"; // 编辑界面导出完成文案
+"video_exporting_finish_fail_edit" = "导出失败"; // 编辑界面导出完成文案
+"video_exporting_check_autho" = "请检查是否有相册权限或其他";
+"video_local_save_edit" = "已保存到手机相册"; // 编辑界面保存到手机相册文案
+"video_remove_mv_edit" = "请先移除MV效果再添加音乐"; // 编辑界面MV与音乐不能叠加弹窗文案
+"video_title_edit" = "编辑"; // 编辑界面title
+"music_none_lable_edit" = "无音乐"; // 音乐选择界面 无音乐按钮
+"music_import_itunes_edit" = "当前无音乐，请在iTunes导入音乐"; // itunes无音乐时提示导入音乐文案
+"aliyun_res_copy" = "资源拷贝中";
+"aliyun_compose" = "合成中";
+"aliyun_network_not_connect" = "网络没有连接，请检查网络";
+"aliyun_download_failed" = "下载失败";
+"aliyun_permission_camera_mic" = "请求相机和麦克风权限";
+"aliyun_filter_null" = "原片";
+"aliyun_bit_rate" = "码率";
+"aliyun_frame_rate" = "帧率";
+"aliyun_ratio" = "视频比例";
+"aliyun_bit_rate_hint" = "建议600-2000，默认1000";
+"aliyun_frame_rate_hint" = "建议20-30，默认25";
+"aliyun_bitrate_hint" = "默认为0，根据视频质量参数计算";
+"aliyun_start_record" = "启动录制";
+"aliyun_record_resolution_360p" = "360p";
+"aliyun_record_resolution_480p" = "480p";
+"aliyun_record_resolution_540p" = "540p";
+"aliyun_record_resolution_720p" = "720p";
+"aliyun_record_ratio_1_1" = "1:1";
+"aliyun_reocrd_ratio_9_16" = "9:16";
+"aliyun_record_ratio_3_4" = "3:4";
+"aliyun_camera_permission_tip" = "请开启摄像头权限";
+"aliyun_no_free_memory" = "剩余磁盘空间不足";
+"aliyun_select_music" = "选择音乐";
+"aliyun_online_music" = "在线音乐";
+"aliyun_rate_very_slow" = "极慢";
+"aliyun_rate_slow" = "慢";
+"aliyun_rate_standard" = "标准";
+"aliyun_rate_fast" = "快";
+"aliyun_rate_very_fast" = "极快";
+"aliyun_delete" = "回删";
+"aliyun_video_codec" = "视频编码方式";
+"aliyun_hardware_encoder" = "硬编";
+"aliyun_openh264_encoder" = "OpenH264软编";
+"aliyun_ffmpeg_encoder" = "FFmpeg软编";
+"crop_mode" = "裁剪模式";
+"mode_fill" = "画面填充";
+"mode_crop" = "画面裁剪";
+"start_import" = "开始导入";
+"resolution_1_1" = "540*540";
+"resolution_3_4" = "540*720";
+"resolution_9_16" = "540*960";
+"wait" = "请稍候";
+"message_max_duration_import" = "视频总时长不超过5分钟，请裁剪后继续!";
+"please_select_video" = "请选择视频";
+"edit_nav_save_and_share" = "保存／分享";
+"qupai_text_count_outof" = "字数超出限制";
+"more" = "更多";
+"timeline_curr_time" = "%1$02d:%2$02d";
+"material_downloading_failure" = "素材下载失败！";
+"transcode" = "转码中";
+"not_supported_audio" = "不支持的音频格式";
+"not_supported_pixel_format" = "不支持的文件";
+"publish" = "发布";
+"video_composeing_cancel_or_go" = "正在进行视频合成，确定要放弃合成吗？";
+"goback_to_editor" = "返回编辑";
+"go_ahead_compose" = "继续合成";
+"select_cover" = "选择封面";
+"composing" = "视频合成中";
+"not_shutdown_app" = "请不要关闭应用";
+"uploading" = "正在上传 0%";
+"countoflimit" = "最多不超过20个字";
+"compose_success" = "合成成功";
+"compose_failed" = "合成失败";
+"upload_success" = "上传成功";
+"upload_failed" = "上传失败";
+"backtoeditorandtryagain" = "请返回编辑稍后再试";
+"input_video_desc" = "你可以在合成中添加视频描述...";
+"edit_cover" = "选择封面";
+"my_video" = "我的视频";
+"aliyun_svideo_filter" = "滤镜";
+"aliyun_svideo_effect" = "特效";
+"aliyun_svideo_time_effect_moment" = "某刻";
+"aliyun_svideo_time_effect_all" = "全程";
+"aliyun_svideo_time_effect_not_support" = "时间特效不支持多段视频";
+"aliyun_svideo_editor_init_failed" = "编辑器初始化失败";
+/*livePush-直播推流*/
+"screen_record_notice_text" = "使用系统录屏：\n请先到控制中心长按启动系统录屏录制->选择AlivcLiveBroadcast->在此界面调节相关参数，点击开始推流按钮。\n(注意以上设置在开始推流前有效，推流后改变设置无效。)";
+"live_scene_list" = "直播推流";
+
+"live_basic_function" = "推流SDKv3.3.7";
+
+"live_basic_function_old" = "推流SDKv1.3";
+
+"push_standard" = "普通版";
+"push_professional" = "专业版";
+"push_high" = "清晰优先";
+"push_fluency" = "流畅优先";
+"push_custom" = "自定义";
+"push_internet_music" = "网络音乐";
+"push_accompaniment" = "伴奏";
+"push_voice" = "人声";
+"push_resume" = "恢复";
+"push_stop" = "停止";
+"push_start" = "开始";
+"push_close_loop" = "关循环";
+"push_open_loop" = "开循环";
+"push_close_mute" = "关静音";
+"push_open_mute" = "开静音";
+"push_close_ears_back" = "关耳返";
+"push_open_ears_back" = "开耳返";
+"push_close_audio_denoise" = "关降噪";
+"push_open_audio_denoise" = "开降噪";
+
+"license_declaration" = "版权信息";
+
+"version" = "版本:v3.3.5";
+
+"pusher_setting" = "推流设置";
+
+"input_tips" = "请输入推流地址或扫描二维码";
+
+"resolution_label" = "分辨率";
+
+"quality_mode_label" = "推流模式";
+
+"beauty_mode_label" = "美颜模式";
+
+"max_bitrate" = "最大码率";
+
+"target_bitrate" = "目标码率";
+
+"min_bitrate" = "最小码率";
+
+"initial_bitrate" = "初始码率";
+
+"audio_bitrate" = "音频码率";
+
+"captrue_fps" = "采集帧率";
+
+"min_fps" = "最小帧率";
+
+"audio_sampling_rate" = "音频采样率";
+
+"sound_track" = "声道";
+
+"audio_profile" = "音频格式";
+
+"single_track" = "单声道";
+
+"dual_track" = "双声道";
+
+"reconnect_duration" = "重连时长";
+
+"reconnect_times" = "重连次数";
+
+"landscape_model" = "横屏推流";
+
+"push_url_notice_text" = "防止多人使用同一地址推流造成异常，建议更换推流地址";
+
+"front_camera" = "前置摄像头";
+
+"mirror" = "前置镜像";
+
+"watermark" = "水印";
+
+"watermark_setting" = "水印设置";
+
+"audio_only_push_streaming" = "纯音频";
+
+"video_only_push_streaming" = "纯视频";
+
+"audio_hardware_encode" = "音频硬编";
+
+"background_image" = "后台图片";
+
+"network_weak_image" = "弱网图片";
+
+"auto_focus" = "自动对焦";
+
+"beauty_enable" = "开启美颜";
+
+"hardware_encode" = "硬编";
+
+"asynchronous_interface" = "异步接口";
+
+"start_preview_button" = "开始预览";
+
+"stop_preview_button" = "停止预览";
+
+"start_push" = "开始推流";
+
+"start_button" = "开始推流";
+
+"pause_button" = "暂停";
+
+"resume_button" = "继续";
+
+"stop_button" = "停止推流";
+
+"more_setting_button" = "更多设置";
+
+"repush_button" = "重新推流";
+
+"slide_right_view_log_char" = "右滑查看log";
+
+"slide_left_view_log" = "左滑查看log图表";
+
+"share_button" = "分享";
+
+"tile" = "平铺";
+
+"fit" = "适应";
+
+"cut" = "裁剪";
+
+"add_button" = "加贴纸";
+
+"remove_button" = "删贴纸";
+
+"beauty_on" = "开启美颜";
+
+"beauty_off" = "关闭美颜";
+
+"beauty_white" = "美白";
+
+"beauty_skin_smooth" = "磨皮";
+
+"beauty_cheekpink" = "腮红";
+
+"beauty_thinface" = "瘦脸";
+
+"beauty_shortenface" = "收下巴";
+
+"beauty_bigeye" = "大眼";
+
+"beauty_ruddy" = "红润";
+
+"beaut_brightness" = "亮度";
+
+"beauty_saturation" = "饱和度";
+
+"save_log" = "保存日志";
+
+"modules_time_consuming" = "各模块耗时";
+
+"modules_audio_fps" = "各模块音频帧率";
+
+"modules_video_fps" = "各模块视频帧率";
+
+"modules_bitrate" = "各模块码率";
+
+"capture" = "采集";
+
+"zoom" = "缩放";
+
+"encode" = "编码";
+
+"push" = "推流";
+
+"beauty_button" = "美颜";
+
+"auto_bitrate" = "码率自适应";
+
+"user_main_stream" = "自定义主流";
+
+"user_mix_stream" = "自定义混流";
+
+"auto_resolution" = "分辨率自适应";
+
+"sweep_code" = "扫码";
+
+"preview_mirror" = "预览镜像";
+
+"push_mirror" = "推流镜像";
+
+"keyframe_interval" = "关键帧";
+
+"flash" = "闪光灯";
+
+"render" = "渲染";
+
+"video_encode" = "视频编码";
+
+"audio_encode" = "音频编码";
+
+"sweep_code_label" = "将二维码放入框内, 即可自动扫描";
+
+"mirror_button_open" = "开启镜像";
+
+"mirror_button_close" = "关闭镜像";
+
+"log_button_open" = "开启日志";
+
+"log_button_close" = "关闭日志";
+
+"no_camera_permission" = "没有权限使用摄像头，请开启摄像头权限";
+
+"no_record_audio_permission" = "没有权限使用录音，请开启录音权限";
+
+"dialog_title" = "错误提示";
+
+"ok" = "确定";
+
+"network_poor" = "网络差，请退出或者重连";
+
+"network_recovery" = "网络恢复";
+
+"reconnect_start" = "重连开始";
+
+"reconnect_fail" = "重连失败";
+
+"connect_fail" = "链接失败";
+
+"reconnect_success" = "重连成功";
+
+"senddata_timeout" = "发送数据超时";
+
+"restart_success" = "重启成功";
+
+"system_error" = "系统错误：";
+
+"sdk_error" = "SDK错误：";
+
+"argument_exception" = "参数错误";
+
+"state_exception" = "状态错误";
+
+"bite_error" = "码率参数设置错误！";
+
+"drop_frame" = "丢帧";
+
+"adjust_bitrate" = "调整码率";
+
+"adjust_fps" = "调整帧率";
+
+"start_drop_gop" = "开丢GOP";
+
+"stop_drop_gop" = "停丢GOP";
+
+"bit_control" = "报网差包数";
+
+"min_control_interval" = "码控最小时间间隔";
+
+"upbps_duration" = "上涨最小时间间隔";
+
+"upbps_min_pree" = "上涨码率%";
+
+"upbps_size" = "上涨码率";
+
+"control_times" = "调控次数";
+
+"url_empty" = "请输入推流地址";
+
+"start_preview_log" = "开始预览";
+
+"connectRecovery_log" = "网络恢复";
+
+"stop_preview_log" = "停止预览";
+
+"start_push_log" = "开始推流";
+
+"stop_push_log" = "停止推流";
+
+"pause_push_log" = "暂停";
+
+"resume_push_log" = "恢复";
+
+"first_frame_log" = "首帧渲染";
+
+"push_url_log" = "推流地址";
+
+"ispushing_log" = "是否推流";
+
+"restart_push_log" = "重新推流";
+
+"exit" = "退出";
+
+"reconnect_button" = "重连";
+
+"modules_time_consuming" = "各模块耗时";
+
+"modules_audio_fps" = "各模块音频帧率";
+
+"modules_video_fps" = "各模块视频帧率";
+
+"modules_bitrate" = "各模块码率";
+
+"capture" = "采集";
+
+"render" = "渲染";
+
+"encode" = "编码";
+
+"push" = "推流";
+
+"total_time" = "总耗时";
+
+"audio_fps" = "各模块audio fps";
+
+"video_fps" = "各模块video fps";
+
+"bitrate" = "各模块bitrate";
+
+"video_encode" = "视频编码";
+
+"audio_encode" = "音频编码";
+
+"buffer" = "各模块buffer";
+
+"video_renderbuffer" = "视频渲染";
+
+"video_encodebuffer" = "视频编码";
+
+"video_uploadbuffer" = "视频上传";
+
+"audio_encodebuffer" = "音频编码";
+
+"audio_uploadbuffer" = "音频上传";
+
+"bitrate_enable" = "码率调控";
+
+"publisher_log" = "推流参数log";
+
+"text_log_1" = "当前CPU：";
+"text_log_2" = "当前Memory：";
+"text_log_3" = "视频采集帧率：";
+"text_log_4" = "音频采集帧率：";
+"text_log_5" = "音频编码码率：";
+"text_log_6" = "音频编码帧率：";
+"text_log_7" = "视频渲染帧率：";
+"text_log_8" = "视频编码模式：";
+"text_log_9" = "视频编码码率：";
+"text_log_10" = "视频编码帧率：";
+"text_log_11" = "视频编码总帧数：";
+"text_log_12" = "视频编码总耗时：";
+"text_log_13" = "视频编码器设置码率：";
+"text_log_14" = "音频输出码率：";
+"text_log_15" = "视频输出码率：";
+"text_log_16" = "缓存音频帧总数：";
+"text_log_17" = "缓存视频帧总数：";
+"text_log_18" = "视频上传帧率：";
+"text_log_19" = "音频上传帧率：";
+"text_log_20" = "当前上传视频帧PTS：";
+"text_log_21" = "当前上传音频帧PTS：";
+"text_log_22" = "上一个视频关键帧PTS：";
+"text_log_23" = "缓冲区中最后一帧视频：";
+"text_log_24" = "缓冲区中最后一帧音频：";
+"text_log_25" = "数据上传总大小：";
+"text_log_26" = "视频推流总耗时：";
+"text_log_27" = "当前视频流已发送总帧数：";
+"text_log_28" = "视频丢帧总数：";
+"text_log_29" = "视频丢帧次数：";
+"text_log_30" = "总的断网次数：";
+"text_log_31" = "总的重连次数：";
+"text_log_32" = "视频延迟时长：";
+"text_log_33" = "音频延迟时长：";
+"text_log_34" = "当前上传帧大小：";
+"text_log_35" = "音视频pts差异：";
+"text_log_36" = "两秒内上传数据总大小：";
+"text_log_37" = "缓冲队列中曾经最大的视频帧size：";
+"text_log_38" = "缓冲队列中曾经最大的音频帧size：";
+"text_log_39" = "待发送队列中最后一个视频包的pts：";
+"text_log_40" = "带发送队列中最后一个音频包的pts：";
+"text_log_41" = "当前发送的音视频包pts diff：";
+"text_log_42" = "音频编码器队列中帧缓存数：";
+"text_log_43" = "视频编码器队列中帧缓存数：";
+"text_log_44" = "渲染队列中帧缓存数：";
+"text_log_45" = "每帧平均渲染时长：";
+
+
+//直播互动
+"User Setting" = "用户设置";
+"Click to Change Display Image" = "点击可更换头像";
+"Switch User" = "更换用户";
+"Nickname" = "昵称";
+"Done" = "完成";
+"Interactive Stream" = "互动直播";
+"Dislike" = "我不感兴趣";
+"Live" = "直播";
+"Playback" = "回放";
+"Enter Stream Room" = "进入直播间";
+"Send" = "发送";
+"Start Streaming" = "开始直播";
+"Smooth" = "流畅";
+"SD" = "标清";
+"HD" = "高清";
+"Face Filter" = "美颜";
+"Makeup" = "微调";
+"Skin Polishing" = "磨皮";
+"Skin Whitening" = "美白";
+"Skin Shining" = "红润";
+"Lip Glow" = "唇彩";
+"Eye Widening" = "大眼";
+"Face Slimming" = "瘦脸";
+"Chin Reducing" = "缩下巴";
+"Flash Enabled" = "闪光灯已开启";
+"Flash Disabled" = "闪光灯已关闭";
+"Mute" = "禁言";
+"Remove User" = "踢人";
+"Blacklist" = "黑名单";
+"Has been muted" = "被主播禁言";
+"You have been removed from the room by the caster" = "你被主播移出直播间，请注意言行";
+"OK" = "我知道了";
+"Microphone Off" = "麦克风已关闭";
+"Microphone On" = "麦克风已开启";
+"Click to Apply Makeup" = "点击可微调";
+"Let's Chat" = "一起聊聊吧～";
+"Please switch to the rear camera first" = "请先切换摄像头为后置";
+"Lift the ban" = "解除禁言";
+
+"live_room" = "互动直播";
+"alivc_yun_video" = "阿里云视频云";
+"host_leave_room" = "主播退出房间";
+"change_new_user" = "已经成功更换为新用户";
+"nick_all_empty" = "昵称不能全为空格";
+"nick_no_more_than_8" = "昵称不能超过8个汉字字母数字或符号";
+"nick_contain_emotion" = "昵称不能包含表情";
+"tips" = "提示";
+"it_is_ok" = "确认";
+"user_enter" = "进入了直播间";
+"user_leave" = "离开了直播间";
+"user_has_been_remove" = "因言行不当，已被主播踢出房间";
+"enter_success" = "成功进入房间";
+"Function is developing" = "功能开发中";
+"you_removed" = "您已被主播踢出房间";
+
+"left_room" = "该用户已离开房间";
+"kickout_tip" = "该用户因言行不当，已被主播踢出房间";
+"inappropriate_words" = "言行不当";
+"kickout_success" = "踢出成功";
+"relive_kickout_success" = "解除踢出成功";
+"parsing_error" = "解析错误";
+"host_enter_room" = "主播进入房间";
+"live_ended" = "直播已结束";
+
+"fail_micophone" = "获取麦克风权限失败";
+"no_auth_micophone" = "麦克风无权限";
+"fail_camera" = "获取相机权限失败";
+"no_auth_camera" = "摄像头无权限";
+"fail_mic_camera" = "获取相机，麦克风权限失败";
+"no_auth_mic_camera" = "摄像头无权限，麦克风无权限";
+
+"note_city_Singapore" = "节点：新加坡";
+"note_city_Shanghai" = "节点：上海";
+"note_city_Daily" = "节点：日常";
+"note_city_PreRelease" = "节点：预发";
+
+"Connect" = "申请连麦";
+"XXX people are trying to connect." = "XXX人正在申请连麦";
+"Connecting…" = "正在连麦";
+"Waiting for a connection…" = "等待连麦";
+"You have been removed from the connection." = "你已被踢出连麦";
+"Are you sure you want to end the connection with XXX?" = "你确定要结束与XXX的互动连麦吗?";
+"Connection in progress... Are you sure you want to quit?" = "正在申请连麦,你确定取消吗?";
+"XXX has refused your connection request. Please try again later." = "XXX拒绝了你的连麦申请，请稍后再试";
+"Disconnect" = "结束本次连麦";
+"The connection is ended." = "对方已结束连麦";
+"The connection with XXX has been ended." = "已结束与XXX的连麦";
+"Unable to connect. Please try again later." = "你已经被限制连麦, 请稍后再试";
+
+
