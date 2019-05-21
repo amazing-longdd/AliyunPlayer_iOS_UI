@@ -1,7 +1,7 @@
 # AliyunPlayer_iOS_UI
 
 
-### 因为项目涉及到视频加密，服务器又架在阿里云，所以没有办法 只有选择 这个阿里云的视频播放框架，按照官网集成之后 发现最新版本SDK把UI部分移除了 做成了一个Demo开源，没办法 只有去 Demo里面把以前的AliyunVodPlayerView给剥离出来，使得可以快速集成。
+### 因为项目涉及到视频加密，服务器又架在阿里云，所以没有办法 只有选择 这个阿里云的视频播放框架，按照官网集成之后 发现最新版本SDK把UI部分移除了 做成了一个Demo开源，所以 只有去 Demo里面把以前的AliyunVodPlayerView给剥离出来，使得可以快速使用。
 
 ### 项目里面 AliPlayerView 文件夹就是从Demo里面剥离出来的UI层，Resources是我整理之后相关的图片资源（代码里面的引用也已经改了），al_loader.gif是加载菊花gif，zh-Hans.lproj是Demo里面使用到了的国际化资源。
 
